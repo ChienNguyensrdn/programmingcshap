@@ -77,8 +77,7 @@
 - UML Class Diagram
 - ORM
 
-  
-```plantuml
+plantuml
 @startuml
 class AccountMember {
     +MemberID : int
@@ -103,7 +102,7 @@ class Products {
 
 Categories "1" -- "0..*" Products : has
 @enduml
-```
+
 
 ## 4. Create MVC with 3 layer
 
